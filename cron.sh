@@ -3,7 +3,7 @@
 authorization = "ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg=="
 ticket = "ONENETWORK-2141"
 var1 = $var1
-log = git log
+log = git log -p -2
 
 curl -D- -X GET -H "Authorization: Basic " "$authorization" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/browse/" "$ticket"
 
