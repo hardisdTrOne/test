@@ -9,5 +9,6 @@ curl -D- -X GET -H "Authorization: Basic " "$authorization" -H "Content-Type: ap
 
 echo $log "test"
 git log --pretty=format:"%s" -1
+echo $var1
 
 exit
