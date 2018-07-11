@@ -5,7 +5,9 @@ ticket = "ONENETWORK-2141"
 var1 = $var1
 log = git log --pretty=format: "%s"
 
-curl -D- -X GET -H "Authorization: Basic " "$authorization" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/browse/" "$ticket"
+#https://jira.atlassian.com/rest/api/latest/issue/JRA-9
+#https://pid.hardis.fr/jira/browse/
+curl -D- -X GET -H "Authorization: Basic " "$authorization" -H "Content-Type: application/json" "https://pid.hardis.fr/rest/api/latest/issue/" "$ticket"
 
 echo $log "test"
 git log --pretty=format:"%s" -1
