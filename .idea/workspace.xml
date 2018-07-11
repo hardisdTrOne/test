@@ -14,8 +14,8 @@
       <file leaf-file-name="cron.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cron.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -95,12 +95,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531298015400</updated>
-      <workItem from="1531298016522" duration="4175000" />
+      <workItem from="1531298016522" duration="4446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4175000" />
+    <option name="totallyTimeSpent" value="4446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="458" y="50" width="1459" height="1030" extended-state="0" />
@@ -149,8 +149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cron.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
