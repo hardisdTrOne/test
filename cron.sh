@@ -7,7 +7,7 @@ log = git log --pretty=format: "%s"
 
 #https://jira.atlassian.com/rest/api/latest/issue/JRA-9
 #https://pid.hardis.fr/jira/browse/
-curl -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/rest/api/latest/issue/ONENETWORK-2346"
+curl -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/ONENETWORK-2346"
 
 echo $log "test"
 git log --pretty=format:"%s" -1
