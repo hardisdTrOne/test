@@ -8,6 +8,6 @@ log = git log --pretty=format: "%s"
 curl -D- -X GET -H "Authorization: Basic " "$authorization" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/browse/" "$ticket"
 
 echo $log "test"
-git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%s"
 
 exit
