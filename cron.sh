@@ -7,7 +7,7 @@
 
 echo "https://pid.hardis.fr/jira/rest/api/latest/issue/$1/?fields=labels"
 
-resultcurl=$(curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/$1")
+resultcurl=$(curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/$1" ">api.json")
 
 #curl -s -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/$1"
 
@@ -20,7 +20,8 @@ echo "--------------------------------"
 
 
 
-result= "$resultcurl" | grep '"labels":\[(.*")\]'
+result= "$resultcurl" | grep -Po '"labels":\[(.*")\]' api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
+
 
 echo "///////////////////////////////////////////////"
 
