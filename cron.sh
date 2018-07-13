@@ -18,9 +18,10 @@ echo "--------------------------------"
 
 #branch=$(grep "labels" )
 
+"$resultcurl">branche.txt
+result= sed -n '"labels":\[(.*")\]' branche.txt
 
-
-result= "$resultcurl" | grep '"labels":\[(.*")\]'
+#result= "$resultcurl" | grep '"labels":\[(.*")\]'
 
 echo "///////////////////////////////////////////////"
 
