@@ -27,10 +27,10 @@ echo "///////////////////////////////////////////////"
 
 
 echo "$result"
-
+var1="ok"
 
 export result
-./.git//commit-msg.sh $result
+./.git/commit-msg.sh $result $var1
 
 echo " "
 echo "--------------------------------"
