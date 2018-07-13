@@ -8,9 +8,9 @@
 
 var_dump(${test});
 $issus= "";
-exec('curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/'.$issus.'" >api.json', $output);
+$r=shell_('curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/'.$issus.'" >api.json');
 
-print_r($output);
+print_r($r);
 
 
 $json = file_get_contents('api.json');
