@@ -5,7 +5,7 @@
 #https://pid.hardis.fr/jira/browse/
 #https://pid.hardis.fr/jira/rest/api/latest/issue/ONENETWORK-2346
 
-echo "https://pid.hardis.fr/jira/rest/api/latest/issue/$1/?fields=labels"
+#echo "https://pid.hardis.fr/jira/rest/api/latest/issue/$1/?fields=labels"
 
 resultcurl=$(curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/$1" ">api.json")
 
@@ -28,6 +28,9 @@ echo "///////////////////////////////////////////////"
 
 echo "$result"
 
+
+export result
+./commit-msg.sh $result
 
 echo " "
 echo "--------------------------------"
