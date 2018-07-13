@@ -30,7 +30,7 @@ echo "$result"
 
 
 export result
-./commit-msg.sh $result
+./.git//commit-msg.sh $result
 
 echo " "
 echo "--------------------------------"
