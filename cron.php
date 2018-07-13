@@ -11,7 +11,7 @@ exec('curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZW
 print_r($output);
 
 
-$json = file_get_contents('.api.json');
+$json = file_get_contents('api.json');
 $obj = json_decode($json);
 var_dump($obj);
 
