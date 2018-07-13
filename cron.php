@@ -6,4 +6,4 @@
  * Time: 15:36
  */
 
-echo "https://pid.hardis.fr/jira/rest/api/latest/issue/$1/?fields=labels";
+echo "https://pid.hardis.fr/jira/rest/api/latest/issue/$1/?";
