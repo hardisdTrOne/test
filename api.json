@@ -1,20 +1,20 @@
 HTTP/1.1 405 Méthode Non Autorisée
-Date: Fri, 13 Jul 2018 15:23:47 GMT
+Date: Fri, 13 Jul 2018 15:25:34 GMT
 Server: Apache-Coyote/1.1
-X-AREQUESTID: 1043x1224128x1
+X-AREQUESTID: 1045x1224559x2
 X-ASEN: SEN-2122402
 X-Seraph-LoginReason: OUT
 X-Seraph-LoginReason: OK
-X-ASESSIONID: dsjerh
+X-ASESSIONID: 1ytadat
 X-AUSERNAME: DDaunique
 Allow: POST,OPTIONS
 X-Content-Type-Options: nosniff
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Set-Cookie: JSESSIONID=D27998C7E7158CD5A49BDB2E8093F03B; Path=/jira/; HttpOnly
+Set-Cookie: JSESSIONID=C285918DFA52424AE19A6FBB913C2560; Path=/jira/; HttpOnly
 Set-Cookie: crowd.token_key=""; Domain=hardis.fr; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly
 Set-Cookie: crowd.token_key=wL7pk0Ly0cXeMKF06i0z6w00; Domain=hardis.fr; Path=/; HttpOnly
-Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|7a0c3ef805bff21566de0b4dddbd304b0fc4447b|lin; Path=/jira
+Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|105dc9fd04fe591a8faea3486bd107b20649d0dc|lin; Path=/jira
 Vary: User-Agent
 Access-Control-Allow-Origin: *
 
