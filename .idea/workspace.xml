@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c95483a-a59c-4885-b256-d95048580c8c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cron.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cron.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="cron.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cron.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="105">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -100,12 +99,12 @@
       <updated>1531298015400</updated>
       <workItem from="1531298016522" duration="13192000" />
       <workItem from="1531321275440" duration="3525000" />
-      <workItem from="1531400229068" duration="3379000" />
+      <workItem from="1531400229068" duration="3758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20096000" />
+    <option name="totallyTimeSpent" value="20475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="392" y="27" width="1459" height="1030" extended-state="0" />
@@ -156,8 +155,8 @@
     <entry file="file://$PROJECT_DIR$/automation.php" />
     <entry file="file://$PROJECT_DIR$/cron.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
