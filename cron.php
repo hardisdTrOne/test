@@ -6,10 +6,11 @@
  * Time: 15:58
  */
 
+var_dump(${test});
 $issus= "";
-$r=shell_exec('curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/'.$issus.'" >api.json');
+exec('curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk5Nm9yZWVOKg==" -H "Content-Type: application/json" "https://pid.hardis.fr/jira/rest/api/latest/issue/'.$issus.'" >api.json', $output);
 
-print_r($r);
+print_r($output);
 
 
 $json = file_get_contents('api.json');
