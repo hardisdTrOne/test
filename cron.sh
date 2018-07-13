@@ -30,7 +30,7 @@ echo "$result"
 var1="ok"
 
 export result
-./.git/commit-msg.sh $result $var1
+./.git/hooks/commit-msg $result $var1
 
 echo " "
 echo "--------------------------------"
