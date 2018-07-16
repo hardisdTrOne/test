@@ -8,4 +8,8 @@ echo "$resultcurl"
 
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
 
+status= grep -Po '"labels":\[(.*")\]' ./tmp/api.json |  awk -F "La demande est" '{print $2}'
+
+echo "$status"
+
 exit 0;
