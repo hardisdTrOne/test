@@ -9,6 +9,6 @@ branche= grep -Po '"labels":\[(.*")\]' api.json | awk -F ":" '{print $2}' | awk 
 echo $branche hdghd
 
 
-ps aux
+ps auxw|grep api
 
 exit 0;
