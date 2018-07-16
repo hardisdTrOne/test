@@ -1,19 +1,19 @@
 HTTP/1.1 200 OK
-Date: Mon, 16 Jul 2018 09:22:41 GMT
+Date: Mon, 16 Jul 2018 09:23:36 GMT
 Server: Apache-Coyote/1.1
-X-AREQUESTID: 682x99958x2
+X-AREQUESTID: 683x100821x1
 X-ASEN: SEN-2122402
 X-Seraph-LoginReason: OUT
 X-Seraph-LoginReason: OK
-X-ASESSIONID: rl2mdr
+X-ASESSIONID: g95hr6
 X-AUSERNAME: DDaunique
 Cache-Control: no-cache, no-store, no-transform
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
-Set-Cookie: JSESSIONID=ACFEAB9115B38A74456CCD3B2FA757B2; Path=/jira/; HttpOnly
+Set-Cookie: JSESSIONID=42CDFAF38B697496E7C2EF58F43EFBC4; Path=/jira/; HttpOnly
 Set-Cookie: crowd.token_key=""; Domain=hardis.fr; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly
 Set-Cookie: crowd.token_key=tQlUYnpQIT7nhGiTSvkC2w00; Domain=hardis.fr; Path=/; HttpOnly
-Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|d627a6e3ec584ec221ac4a410bc89e8070f91014|lin; Path=/jira
+Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|76ef3bed728225031ea0040c706a931b3d81a6ff|lin; Path=/jira
 Vary: Accept-Encoding,User-Agent
 Access-Control-Allow-Origin: *
 Transfer-Encoding: chunked
