@@ -11,6 +11,6 @@ branche= grep -Po '"labels":\[(.*")\]' api.json | awk -F ":" '{print $2}' | awk 
 echo $branche
 
 ls -l
-chmod -x api.json
+chmod +x api.json
 
 exit 0;
