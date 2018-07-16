@@ -6,7 +6,7 @@ echo "$resultcurl">./tmp/api.json
 
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
 
-status= grep -Po '"labels":(.*")' ./tmp/api.json |  awk -F "name:" '{print $2}'
+status= grep -Po '"labels":(.*")' ./tmp/api.json |  awk -F "name" '{print $2}'
 
 echo "$status"
 
