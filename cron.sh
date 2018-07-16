@@ -4,6 +4,8 @@ resultcurl=$(curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk
 
 echo "$resultcurl">./tmp/api.json
 
+echo "$resultcurl"
+
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
 
 exit 0;
