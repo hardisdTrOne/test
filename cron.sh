@@ -7,3 +7,5 @@ echo "$resultcurl" > /tmp/api.json
 branche= grep -Po '"labels":\[(.*")\]' api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
 
 echo $branche hdghd
+
+exit 0;
