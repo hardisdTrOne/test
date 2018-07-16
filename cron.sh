@@ -12,7 +12,7 @@ test="ok"
 
 export branche
 export test
-./.git/hooks/commit-msg "$branche" "$test"
+./.git/hooks/commit-msg $branche $test
 
 
 
