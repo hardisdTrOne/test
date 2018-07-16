@@ -11,7 +11,3 @@ test="ok"
 export branche
 export test
 ./.git/hooks/commit-msg.sh $branche $test
-
-
-
-
