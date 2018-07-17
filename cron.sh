@@ -12,6 +12,6 @@ ticket_status= grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk
 echo "$ticket_status"
 
 if [ "$ticket_status" != "EN COURS" ] ;then
-echo "Le status n'est pas en cours.( "$ticket_status" )" >&2
+echo "Le status n'est pas en cours.( $ticket_status )" >&2
 exit 1;
 fi
