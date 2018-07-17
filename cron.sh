@@ -5,7 +5,9 @@ resultcurl=$(curl -s -D- -X GET -H "Authorization: Basic ZGRhdW5pcXVlOkQxNzA1MTk
 echo "$resultcurl">./tmp/api.json
 
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
+
 echo "$branche"
+
 if [ -z "$branche" ] ;then
 echo "La branche du ticket n'est pas renseignée.( ""$branche"" )" >&2
 exit 1;
