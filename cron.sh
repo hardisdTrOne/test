@@ -10,6 +10,6 @@ echo "$branche">./tmp/branche.txt
 ticket_status= grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 echo "$ticket_status">./tmp/status.txt
 
-ls-l
+$(ls-l)
 
 exit 0;
