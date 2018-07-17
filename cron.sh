@@ -8,4 +8,4 @@ branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' 
 
 #ticket_status= grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 
-exit $?;
+exit "$branche" "$ticket_status" ;
