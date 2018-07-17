@@ -12,6 +12,3 @@ if [ "$ticket_status" != "EN COURS" ] ;then
 echo "Le status n'est pas en cours.( ""$ticket_status"" )" >&2
 exit 1;
 fi
-    
-
-exit 0 ;
