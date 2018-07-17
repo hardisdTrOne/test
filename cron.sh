@@ -8,7 +8,6 @@ branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' 
 
 echo "$resultcurl">./tmp/api.json
 #ticket_status= grep -Po '"labels":\[(.*")\]' ./tmp/api.json |  awk -F "\"description\":\"La demande est " '{print $2}' | awk -F "\"" '{print $1}'
-ticket_status= grep -Po '"status":{(.*)' ./tmp/api.json | awk -F "\"" '{print $1}'
-echo $tiket_status
+ticket_status= grep -Po '"status":{(.*)' ./tmp/api.json
 
 exit 0;
