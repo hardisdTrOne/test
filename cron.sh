@@ -6,10 +6,6 @@ echo "$resultcurl">./tmp/api.json
 
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'
 
-ticket_status= grep -Po '"labels":\[(.*")\]' ./tmp/api.json |  awk -F "\"description\":\"La demande est " '{print $2}' | awk -F "\"" '{print $1}'
+#ticket_status= grep -Po '"labels":\[(.*")\]' ./tmp/api.json |  awk -F "\"description\":\"La demande est " '{print $2}' | awk -F "\"" '{print $1}'
 
-echo "tot"
-echo $branche
-echo $tiket_status
-echo "o"
 exit 0;
