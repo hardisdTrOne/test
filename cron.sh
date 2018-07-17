@@ -11,5 +11,5 @@ ticket_status= grep -Po '"labels":\[(.*")\]' ./tmp/api.json |  awk -F "\"descrip
 echo "tot"
 echo $branche
 echo $tiket_status
-
+echo "o"
 exit 0;
