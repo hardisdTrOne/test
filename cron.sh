@@ -8,7 +8,7 @@ ticket=$(grep -Po '"errorMessages":\[(.*")\]' ./tmp/api.json | awk -F ":" '{prin
 
 if [ ! -z "$ticket" ] ;
 then
-echo "ERREUR.( ""$ticket"" )" >&2
+echo "ERREUR :  ""$ticket"" " >&2
 exit 1;
 else
 ticket_status=$(grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}')
