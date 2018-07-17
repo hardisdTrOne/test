@@ -6,7 +6,7 @@ echo "$resultcurl">./tmp/api.json
 
 ticket=$(grep -Po '"errorMessages":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}')
 
-if [ -z "$ticket" ] ;
+if [ ! -z "$ticket" ] ;
 then
 echo "ERREUR.( ""$ticket"" )" >&2
 exit 1;
