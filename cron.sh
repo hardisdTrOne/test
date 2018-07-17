@@ -6,7 +6,7 @@ echo "$resultcurl">./tmp/api.json
 
 branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 
-ticket_status= grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
+#ticket_status= grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 
 if [ "$ticket_status" != "EN COURS" ] ;then
 echo "Le status n'est pas en cours.( ""$ticket_status"" )" >&2
