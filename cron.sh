@@ -6,11 +6,11 @@ echo "$resultcurl">./tmp/api.json
 
 ticket=$(grep -Po '"errorMessages":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}')
 
-branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 
 ticket_status=$(grep -Po '"status":(.*)}},(.*)"components":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}')
 
-echo "$ticket"
+branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
+
 
 if [ -z "$ticket" ] ;then
 echo "ERREUR.( ""$ticket"" )" >&2

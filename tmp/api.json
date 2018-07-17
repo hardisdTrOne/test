@@ -1,19 +1,19 @@
 HTTP/1.1 404 Introuvable
-Date: Tue, 17 Jul 2018 15:15:25 GMT
+Date: Tue, 17 Jul 2018 15:16:24 GMT
 Server: Apache-Coyote/1.1
-X-AREQUESTID: 1035x476581x2
+X-AREQUESTID: 1036x477029x1
 X-ASEN: SEN-2122402
 X-Seraph-LoginReason: OUT
 X-Seraph-LoginReason: OK
-X-ASESSIONID: 14az5dy
+X-ASESSIONID: 1356688
 X-AUSERNAME: DDaunique
 Cache-Control: no-cache, no-store, no-transform
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
-Set-Cookie: JSESSIONID=6DDC203715741494908A475312960309; Path=/jira/; HttpOnly
+Set-Cookie: JSESSIONID=2B7A89DFE5BF2FD77713D8729D9137CF; Path=/jira/; HttpOnly
 Set-Cookie: crowd.token_key=""; Domain=hardis.fr; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly
 Set-Cookie: crowd.token_key=aNWgTt7B2LWnDrjwBShtAQ00; Domain=hardis.fr; Path=/; HttpOnly
-Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|cadc618a7fc4bb54c3efafd7a4701eeadc737c82|lin; Path=/jira
+Set-Cookie: atlassian.xsrf.token=B5NI-LCF6-IVXP-3JG0|4767544a108d0661bb3e1d4a272889b7d22a78da|lin; Path=/jira
 Vary: User-Agent
 Access-Control-Allow-Origin: *
 Transfer-Encoding: chunked
