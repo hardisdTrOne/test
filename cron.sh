@@ -18,7 +18,7 @@ exit 1;
 fi
 fi
 
-branche= grep -Po '"labels":\[(.*")\]' ./tmp/api.json | awk -F ":" '{print $2}' | awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
+branche= grep -Po '"versions":(.*),(.*)"assignee":' ./tmp/api.json | awk -F "\"name\":" '{print $2}'| awk -F "\"" '{print $2}'| awk '{print toupper($0)}'
 
 
 
